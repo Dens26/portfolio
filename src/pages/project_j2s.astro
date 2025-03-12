@@ -1,0 +1,84 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PROJECTS from "../assets/collections/projects.json";
+import Project from "../components/Project.astro";
+
+export const prerender = true;
+---
+
+<Layout>
+  <section class="flex flex-col gap-4">
+    <h1 class="font-bold text-center text-2xl sm:text-3xl lg:text-4xl text-gray-950 dark:text-white mb-6">
+      Projet J2S – Le site de Sorralli (en cours)
+    </h1>
+
+    <p class="text-base md:text-lg text-gray-600 dark:text-gray-400 text-pretty text-center">
+      Un site conçu pour promouvoir les plateformes de la streameuse Sorralli tout en offrant 
+      une expérience interactive autour des jeux de société.
+    </p>
+
+    <!-- Bouton vers le site -->
+    <div class="flex justify-center mt-6">
+      <a href="https://j2s.db-dev.fr" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg text-lg">
+        Découvrir le site
+      </a>
+    </div>
+  </section>
+
+    <!-- Fonctionnalités principales -->
+    <h3 class="font-bold text-xl sm:text-2xl lg:text-3xl text-gray-950 dark:text-white mt-6">🔎 Fonctionnalités principales</h3>
+    
+    <ul class="text-base md:text-lg text-gray-600 dark:text-gray-400 text-pretty space-y-2">
+      <li><strong>Pendant le stream</strong>, un administrateur peut afficher un jeu mystère que les spectateurs doivent tenter de découvrir.</li>
+      <li><strong>Après le live</strong>, le jeu est accessible en mode autonome pour permettre aux membres inscrits de continuer à jouer.</li>
+      <li><strong>Accès aux jeux mystères</strong> : 
+        <ul class="list-disc pl-6">
+          <li>Participer au jeu mystère du moment.</li>
+          <li>Explorer et rejouer les anciens jeux mystères dans la section "Défis de Sorralli".</li>
+        </ul>
+      </li>
+      <li><strong>Pour les visiteurs non inscrits</strong> : accès aux fiches détaillées des jeux de société.</li>
+    </ul>
+
+    <!-- Section Screenshots -->
+    <h3 class="font-bold text-xl sm:text-2xl lg:text-3xl text-gray-950 dark:text-white mt-6">📸 Aperçu du site</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
+      <img src="/projects/j2s/homepage.jpg" alt="Accueil du site" class="rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-102 hover:shadow-2xl" />
+      <img src="/projects/j2s/gameinfo.jpg" alt="fiche jeu" class="rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-102 hover:shadow-2xl" />
+      <img src="/projects/j2s/mysterygame.jpg" alt="Jeu mystère en cours" class="rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-102 hover:shadow-2xl" />
+      <img src="/projects/j2s/dashboard.jpg" alt="Tableau de bord admin" class="rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-102 hover:shadow-2xl" />
+    </div>
+
+    <!-- Bouton vers le site -->
+    <div class="flex justify-center mt-6">
+      <a href="https://j2s.db-dev.fr" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg text-lg">
+        Découvrir le site
+      </a>
+    </div>
+  </section>
+
+    <!-- Améliorations en cours -->
+    <h3 class="font-bold text-xl sm:text-2xl lg:text-3xl text-gray-950 dark:text-white mt-6">💡 Améliorations possible (en discution)</h3>
+    <ul class="text-base md:text-lg text-gray-600 dark:text-gray-400 text-pretty list-disc pl-6 space-y-2">
+      <li>Système de score : chaque joueur accumule des points en fonction de ses performances.</li>
+      <li>Classement : un leaderboard met en avant les meilleurs détectives de la communauté.</li>
+    </ul>
+
+    <!-- Conception -->
+    <h3 class="font-bold text-xl sm:text-2xl lg:text-3xl text-gray-950 dark:text-white mt-6">🛠 Conception & Technologies</h3>
+    <ul class="text-base md:text-lg text-gray-600 dark:text-gray-400 text-pretty space-y-2">
+      <li>💻 Développé avec <strong>Symfony</strong> pour une architecture robuste et sécurisée.</li>
+      <li>👤 Interface utilisateur complète : inscription, connexion, récupération de mot de passe.</li>
+      <li>📊 Tableau de bord administrateur pour la gestion des jeux et des utilisateurs.</li>
+      <li>📈 Système de score et classement pour dynamiser l’expérience des joueurs.</li>
+      <li>✉️ Formulaire de contact pour permettre aux utilisateurs d’envoyer des messages directement via le site.</li>
+    </ul>
+
+    <!-- Bouton vers le site -->
+    <div class="flex justify-center mt-6">
+      <a href="https://j2s.db-dev.fr" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg text-lg">
+        Découvrir le site
+      </a>
+    </div>
+  </section>
+</Layout>

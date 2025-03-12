@@ -4,29 +4,21 @@ import { Image } from "astro:assets";
 const { pathname } = Astro.url;
 
 let links: string[];
-const linkNames = ["Home", "About", "Projects", "Services"];
+const linkNames = ["Home", "A propos", "Projets", "Parcours", "Services"];
 
-if (pathname == "/") {
-  links = ["#home", "#about", "#projects", "#services"];
+if (pathname === "/") {
+  links = ["#home", "#about", "#projects", "#parcours", "#services"];
 } else {
-  links = ["/", "/#about", "/projects", "/#services"];
+  links = ["/#home", "/#about", "/#projects", "/#parcours", "/#services"];
 }
+
 ---
 
 <header
-  class="max-w-screen-lg mx-auto flex flex-wrap justify-between py-1 px-4 sm:px-6 items-center sticky top-0 z-50 lg:rounded-b-md border border-gray-300 dark:border-neutral-800 backdrop-blur-xs"
+  class="w-full mx-auto flex flex-wrap justify-between py-1 px-4 sm:px-6 items-center sticky top-0 z-50 lg:rounded-b-md border border-gray-300 dark:border-neutral-800 backdrop-blur-xl"
 >
   <a href="/">
-    <Image
-      src="/logo.webp"
-      class="size-16 object-contain object-center bg-transparent"
-      alt="Logo"
-      width={64}
-      height={64}
-      title="Logo"
-      aria-label="Logo"
-      loading="eager"
-    />
+    <span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white" >DBDev</span>
   </a>
   <div class="sm:order-2 flex items-center gap-3 text-gray-900">
     <button
@@ -104,7 +96,7 @@ if (pathname == "/") {
           <li>
             <a
               href={link}
-              class="hover:text-gray-950 dark:hover:text-white dark:text-gray-400"
+              class="hover:text-gray-950 dark:hover:text-white dark:text-gray-400 text-xl lg:text-2xl"
             >
               {linkNames[i]}
             </a>

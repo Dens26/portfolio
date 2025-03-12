@@ -1,42 +1,104 @@
 [
   {
     "id": 1,
-    "title": "Landing Page",
-    "price": 75,
-    "description": "Perfect for businesses looking for a professional online presence.",
+    "title": "Landing Page / Portfolio",
+    "price": 150,
+    "description": "Un site web professionnel pour mettre en avant votre présence en ligne ou vos projets.",
     "benefits": [
-      "High-quality code",
-      "Fully responsive design",
-      "SEO-optimized structure",
-      "Fast loading speed",
-      "1 free extra revision after launch"
+      "Design moderne et entièrement responsive",
+      "Optimisation SEO de base",
+      "Mise en valeur de vos services ou projets",
+      "1 révision gratuite après le lancement"
+    ],
+    "hostingPrice": 30,
+    "hostingDescription": [
+      "Hébergement annuel avec un sous-domaine personnalisé (ex: projet.db-dev.fr).",
+      "Domaine personnalisé à partir de 15€ par an (prix variable selon le domaine choisi)"
     ]
   },
   {
     "id": 2,
-    "title": "E-Commerce",
-    "price": 225,
-    "description": "Ideal for selling products online with security and ease.",
+    "title": "Site Vitrine ou Blog",
+    "price": 300,
+    "description": "Idéal pour présenter vos services, entreprise ou partager des contenus régulièrement (blog, actualités, etc.).",
     "benefits": [
-      "High-quality code",
-      "Fully responsive online store",
-      "Secure payment gateway integration",
-      "Product management system",
-      "Ongoing support and maintenance"
+      "Design simple et agréable",
+      "Optimisation SEO de base",
+      "Gestion facile des contenus (blog ou présentation)",
+      "Formulaire de contact et réseaux sociaux intégrés"
+    ],
+    "hostingPrice": 30,
+    "hostingDescription": [
+      "Hébergement annuel avec un sous-domaine personnalisé (ex: entreprise.db-dev.fr).",
+      "Domaine personnalisé à partir de 15€ par an (prix variable selon le domaine choisi)"
     ]
   },
   {
     "id": 3,
-    "title": "E-Commerce + Admin Dashboard",
-    "price": 325,
-    "description": "Perfect for businesses that want full control over their online store.",
+    "title": "E-Commerce",
+    "price": 500,
+    "description": "Parfait pour vendre des produits en ligne avec sécurité et simplicité.",
     "benefits": [
-      "High-quality code",
-      "Fully responsive online store",
-      "Secure payment gateway integration",
-      "Custom admin dashboard",
-      "Advanced analytics and reporting",
-      "Ongoing support and maintenance"
+      "Code de haute qualité",
+      "Boutique en ligne entièrement responsive",
+      "Intégration d'un système de paiement sécurisé",
+      "Système de gestion des produits"
+    ],
+    "hostingPrice": 60,
+    "hostingDescription": [
+      "Domaine personnalisé (ex: maboutique.fr) prix variable selon domaine choisi."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Site Événementiel ou Réservation en Ligne",
+    "price": 800,
+    "description": "Idéal pour gérer un événement ou des réservations en ligne.",
+    "benefits": [
+      "Gestion des inscriptions ou des réservations",
+      "Système de paiement sécurisé intégré",
+      "Design responsive et adapté",
+      "Notifications automatiques et suivi"
+    ],
+    "hostingPrice": 60,
+    "hostingDescription": [
+      "Domaine personnalisé (ex: reserveenligne.fr) prix variable selon domaine choisi."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "E-Commerce + Admin Dashboard",
+    "price": 1200,
+    "description": "Une boutique en ligne avec un tableau de bord personnalisé pour un contrôle total.",
+    "benefits": [
+      "Code de haute qualité",
+      "Boutique en ligne entièrement responsive",
+      "Intégration d'un système de paiement sécurisé",
+      "Tableau de bord admin personnalisé",
+      "Analyses et rapports avancés"
+    ],
+    "hostingPrice": 60,
+    "hostingDescription": [
+      "Domaine personnalisé (ex: maboutique.fr) prix variable selon domaine choisi."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Site Web Dynamique / Communautaire",
+    "price": 1500,
+    "description": "Un site web dynamique permettant une gestion de contenu, des utilisateurs et des interactions communautaires.",
+    "benefits": [
+      "Gestion dynamique des contenus (articles, événements, etc.)",
+      "Interface d'administration intuitive",
+      "Système d'inscription et de gestion des utilisateurs",
+      "Fonctionnalités d'interaction sociale (commentaires, forums, messagerie)",
+      "Design moderne et responsive",
+      "Optimisation SEO de base",
+      "1 révision gratuite après le lancement"
+    ],
+    "hostingPrice": 60,
+    "hostingDescription": [
+      "Domaine personnalisé (ex: monsiteweb.fr) prix variable selon domaine choisi."
     ]
   }
 ]

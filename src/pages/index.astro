@@ -13,15 +13,31 @@ import HireServiceModal from "../components/HireServiceModal.astro";
 <Layout>
   <section id="home" class="flex flex-col">
     <article class="text-gray-950 dark:text-white text-pretty mx-auto">
-      <h1 class="text-4xl md:text-6xl font-bold max-w-screen-sm">
-        Welcome 👋, I'm Carlos Miguel
+      <p
+        class="flex justify-center text-blue-900 dark:text-blue-200 text-2xl font-bold mt-16"
+      >
+        Portfolio de DENIS BEKAERT
+      </p>
+      <h1
+        class="flex justify-center text-center text-5xl md:text-6xl font-bold max-w-screen-xl mb-4"
+      >
+        Concepteur Développeur d'Applications
       </h1>
-      <div class="flex flex-col gap-6 mt-8">
-        <h2 class="font-bold text-xl sm:text-2xl">
-          Available to help you with:
+      <p
+        class="flex justify-center text-gray-600 dark:text-gray-400 text-center text-xl font-bold"
+      >
+        Je suis Denis Bekaert, Développeur Web Full Stack en reconversion,
+        passionné par le développement d'applications et la création de
+        solutions innovantes
+      </p>
+      <div class="flex flex-col gap-6 mt-8 max-w-5xl m-auto">
+        <h2 class="font-bold text-xl sm:text-2xl mb-2">
+          Disponible pour vos projets :
         </h2>
         <div class="flex flex-col sm:flex-row gap-4 overflow-hidden relative">
-          <Card className="card">
+          <Card
+            className="card transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl mx-2"
+          >
             <div
               class="rounded-full p-4 grid place-content-center bg-blue-50 text-blue-500 dark:bg-blue-950/30 dark:text-blue-700 w-fit"
             >
@@ -36,17 +52,20 @@ import HireServiceModal from "../components/HireServiceModal.astro";
               >
             </div>
             <h2 class="font-semibold text-lg sm:text-xl md:text-2xl">
-              Frontend Development
+              Développement Frontend
             </h2>
             <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
-              Expert in creating dynamic and responsive user interfaces using
-              <span class="text-blue-700 dark:text-blue-500"
-                >Angular and Astro</span
-              >. I bring your designs to life with clean, efficient, and
-              maintainable code.
+              Spécialisé dans la création d'interfaces utilisateur dynamiques et
+              réactives avec
+              <span class="text-blue-700 dark:text-blue-500">Vue.js</span>. Je
+              m'efforce de donner vie à vos conceptions avec un code propre,
+              efficace et maintenable, tout en étant en constante évolution
+              grâce à ma formation.
             </p>
           </Card>
-          <Card className="card">
+          <Card
+            className="card transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl"
+          >
             <div
               class="rounded-full p-4 grid place-content-center bg-yellow-50 text-yellow-500 dark:bg-yellow-950/30 dark:text-yellow-700 w-fit"
             >
@@ -61,14 +80,14 @@ import HireServiceModal from "../components/HireServiceModal.astro";
               >
             </div>
             <h2 class="font-semibold text-lg sm:text-xl md:text-2xl">
-              Backend Development
+              Développement Backend
             </h2>
             <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
-              Skilled in building robust and scalable server-side applications
-              with <span class="text-yellow-700 dark:text-yellow-500"
-                >NestJS and Express</span
-              >. I ensure your backend is secure, efficient, and seamlessly
-              integrated with your frontend.
+              Compétent dans la création d'applications backend robustes et
+              évolutives avec
+              <span class="text-yellow-700 dark:text-yellow-500">Symfony</span>
+              . Je m'assure que votre backend est sécurisé, efficace et parfaitement
+              intégré à votre frontend.
             </p>
           </Card>
         </div>
@@ -77,74 +96,80 @@ import HireServiceModal from "../components/HireServiceModal.astro";
   </section>
   <section id="about" class="flex flex-col">
     <h2
-      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mb-8"
+      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mt-16 mb-2"
     >
-      About Me
+      A propos de moi
     </h2>
     <article class="flex flex-col md:flex-row gap-4 p-4">
-      <Card className="text-gray-600 dark:text-gray-400 h-fit">
+      <div class="text-gray-600 dark:text-gray-400 h-fit md:basis-1/2">
         <div class="flex flex-col gap-2 text-sm sm:text-base">
-          <h3
-            class="text-lg sm:text-xl font-semibold text-gray-950 dark:text-white"
-          >
-            Short Bio 🧬
-          </h3>
-          <p>
-            I'm an experienced FullStack Web Developer focused on the NestJS and
-            Angular ecosystem. I'm compromised with the quality of the code and
-            the reliability of the websites I build.
+          <p class="text-lg">
+            Je suis Denis Bekaert, diplômé d’un TP Concepteur Développeur
+            d’Applications spécialisé dans la création de solutions digitales
+            modernes et interactives.
           </p>
-          <p>
-            Currently, I'm developing a personal project called ThemeMarket, a
-            free templates marketplace for developers.
+          <p class="text-lg">
+            Mon expertise couvre le développement frontend et backend, avec des
+            technologies comme
+            <span class="text-blue-700 dark:text-blue-500"
+              >Vue.js et Symfony</span
+            >
           </p>
-          <p>
-            I like to share my knowledge with the community so I often make
-            tutorials in my YouTube channel.
+          <p class="text-lg">
+            Je propose mes services pour accompagner mes clients dans la
+            réalisation de sites web sur mesure, en offrant un code propre,
+            efficace et maintenable.
+          </p>
+          <p class="text-lg">
+            Actuellement je développe un site de jeu de découverte de jeux
+            mystères. Ce projet, que je présente dans la section "Projets",
+            reflète ma capacité à créer des expériences interactives et
+            immersives.
+          </p>
+          <p class="text-lg">
+            En quête de nouveaux défis, je suis ouvert à une alternance pour un
+            mastère Développeur Full Stack, afin de continuer à développer mes
+            compétences et contribuer à des projets ambitieux.
           </p>
         </div>
-        <div class="flex flex-col gap-2">
-          <h3
-            class="text-lg sm:text-xl font-semibold text-gray-950 dark:text-white"
-          >
-            Want to know a bit more?
-          </h3>
-          <a
-            href="/docs/cv.pdf"
-            role="button"
-            aria-label="Download CV"
-            download
-            class="px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-800 dark:bg-blue-700 focus:ring-4 focus:outline-hidden focus:ring-blue-200 dark:focus:ring-blue-950 text-white w-fit font-semibold"
-            >Download CV</a
-          >
-        </div>
-      </Card>
-      <Card className="p-8">
-        <ol class="relative border-s border-gray-300 dark:border-neutral-800">
-          {
-            EXPERIENCES.map((experience) => (
-              <TimelineItem
-                title={experience.company}
-                description={experience.description}
-                date={experience.dates}
-              >
-                <div
-                  slot="icon"
-                  class="size-full p-1"
-                  set:html={experience.svgIcon}
-                />
-              </TimelineItem>
-            ))
-          }
-        </ol>
-      </Card>
+        <div class="flex flex-col gap-2"></div>
+      </div>
+      <div class="md:basis-1/2">
+        <img
+          src="/photo.jpg"
+          width="500"
+          height="500"
+          srcset="/photo.jpg 400w, /photo.jpg 768w"
+          sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+          style="object-fit: cover; object-position: center; width: 100%; height: auto; aspect-ratio: 1;"
+          class="mx-auto w-full rounded-lg bg-gray-500 shadow-lg"
+          alt="Photo denis Bekaert"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
     </article>
+    <div>
+      <h3
+        class="flex justify-center text-xl sm:text-2xl font-semibold text-gray-950 dark:text-white mt-2 mb-4"
+      >
+        Vous voulez en savoir plus ?
+      </h3>
+      <a
+        href="/docs/cv_denis_bekaert.pdf"
+        role="button"
+        aria-label="Download CV"
+        download
+        class="flex justify-center m-auto px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-800 dark:bg-blue-700 focus:ring-4 focus:outline-hidden focus:ring-blue-200 dark:focus:ring-blue-950 text-white w-fit font-semibold"
+        >Télécharger mon CV</a
+      >
+    </div>
   </section>
   <section id="projects" class="flex flex-col">
     <h2
-      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white text-end ms-auto mb-8"
+      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mt-16 mb-2"
     >
-      Latest Projects
+      Mes projets
     </h2>
     <div class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {
@@ -153,25 +178,44 @@ import HireServiceModal from "../components/HireServiceModal.astro";
         ))
       }
     </div>
-    <div class="mt-6 flex justify-center">
-      <a
-        role="button"
-        href="/projects"
-        class="font-semibold transition-colors px-4 py-2 text-base rounded-3xl bg-blue-600 hover:bg-transparent hover:border hover:border-blue-600 hover:text-blue-600 dark:bg-blue-800 text-white dark:hover:bg-transparent dark:hover:border-blue-800 dark:hover:text-blue-800 duration-300"
-        >See All Projects</a
-      >
+  </section>
+  <section id="parcours" class="flex flex-col overflow-hidden">
+    <h2
+      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mb-2 mt-16"
+    >
+      Mon parcours
+    </h2>
+    <div class="p-8">
+      <ol class="relative border-s border-gray-300 dark:border-neutral-800">
+        {
+          EXPERIENCES.map((experience) => (
+            <TimelineItem
+              title={experience.company}
+              description={experience.description}
+              date={experience.dates}
+            >
+              <div
+                slot="icon"
+                class="size-full p-1"
+                set:html={experience.svgIcon}
+              />
+            </TimelineItem>
+          ))
+        }
+      </ol>
     </div>
   </section>
   <section id="services" class="flex flex-col overflow-hidden">
     <h2
-      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mb-8"
+      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mb-2 mt-16"
     >
       Services
     </h2>
-    <article class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <article class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {SERVICES.map((service) => <CardService service={service} />)}
     </article>
   </section>
+
   <HireServiceModal />
 </Layout>
 
