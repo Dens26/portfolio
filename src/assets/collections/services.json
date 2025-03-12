@@ -14,7 +14,11 @@
     "hostingDescription": [
       "Hébergement annuel avec un sous-domaine personnalisé (ex: projet.db-dev.fr).",
       "Domaine personnalisé à partir de 15€ par an (prix variable selon le domaine choisi)"
-    ]
+    ],
+      "wireframePrice": "+500€",
+      "wireframeDescription": "Création des maquettes",
+      "databasePrice": "",
+      "databaseDescription": ""
   },
   {
     "id": 2,
@@ -31,7 +35,11 @@
     "hostingDescription": [
       "Hébergement annuel avec un sous-domaine personnalisé (ex: entreprise.db-dev.fr).",
       "Domaine personnalisé à partir de 15€ par an (prix variable selon le domaine choisi)"
-    ]
+    ],
+    "wireframePrice": "+500€",
+      "wireframeDescription": "Création des maquettes",
+      "databasePrice": "+1000€",
+      "databaseDescription": "Conception sur mesure de la base de données"
   },
   {
     "id": 3,
@@ -47,7 +55,11 @@
     "hostingPrice": 60,
     "hostingDescription": [
       "Domaine personnalisé (ex: maboutique.fr) prix variable selon domaine choisi."
-    ]
+    ],
+    "wireframePrice": "+1000€",
+      "wireframeDescription": "Création des maquettes",
+      "databasePrice": "+2000€",
+      "databaseDescription": "Conception sur mesure de la base de données"
   },
   {
     "id": 4,
@@ -63,7 +75,11 @@
     "hostingPrice": 60,
     "hostingDescription": [
       "Domaine personnalisé (ex: reserveenligne.fr) prix variable selon domaine choisi."
-    ]
+    ],
+    "wireframePrice": "+1000€",
+      "wireframeDescription": "Création des maquettes",
+      "databasePrice": "+2000€",
+      "databaseDescription": "Conception sur mesure de la base de données"
   },
   {
     "id": 5,
@@ -80,7 +96,11 @@
     "hostingPrice": 60,
     "hostingDescription": [
       "Domaine personnalisé (ex: maboutique.fr) prix variable selon domaine choisi."
-    ]
+    ],
+    "wireframePrice": "+1500€",
+      "wireframeDescription": "Création des maquettes",
+      "databasePrice": "+2500€",
+      "databaseDescription": "Conception sur mesure de la base de données"
   },
   {
     "id": 6,
@@ -99,6 +119,10 @@
     "hostingPrice": 60,
     "hostingDescription": [
       "Domaine personnalisé (ex: monsiteweb.fr) prix variable selon domaine choisi."
-    ]
+    ],
+    "wireframePrice": "+1500€",
+    "wireframeDescription": "Création des maquettes",
+    "databasePrice": "+3000€",
+    "databaseDescription": "Conception sur mesure de la base de données"
   }
 ]

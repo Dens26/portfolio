@@ -6,15 +6,30 @@ interface Service {
   title: string;
   price: number;
   benefits: string[];
-  hostingPrice: number; // Ajout de l'attribut pour le prix d'hébergement
-  hostingDescription: string[]; // Ajout de la description de l'hébergement
+  hostingPrice: number;
+  hostingDescription: string[];
+  wireframePrice: string;
+  wireframeDescription: string;
+  databasePrice: string;
+  databaseDescription: string;
 }
 
 interface Props {
   service: Service;
 }
 
-const { id, title, benefits, price, hostingPrice, hostingDescription } = Astro.props.service;
+const {
+  id,
+  title,
+  benefits,
+  price,
+  hostingPrice,
+  hostingDescription,
+  wireframePrice,
+  wireframeDescription,
+  databasePrice,
+  databaseDescription,
+} = Astro.props.service;
 ---
 
 <div class="flex justify-center items-center w-full mx-2">
@@ -23,18 +38,39 @@ const { id, title, benefits, price, hostingPrice, hostingDescription } = Astro.p
       <h3 class="text-xl text-gray-950 dark:text-gray-100 font-semibold mb-4">
         {title}
       </h3>
-      <p class="font-bold text-2xl text-gray-950 dark:text-white">A partir de {price}€</p>
-      
+      <p class="font-bold text-2xl text-gray-950 dark:text-white">
+        A partir de {price}€
+      </p>
+
       <!-- Affichage des bénéfices -->
       <ul class="text-gray-600 dark:text-gray-400 list-inside list-disc mb-4">
         {benefits.map((benefit) => <li>{benefit}</li>)}
       </ul>
-      
+
+      <!-- Option -->
+      <div class="mt-4">
+        <p class="font-bold text-xl text-gray-950 dark:text-white">
+          Options complémentaires
+        </p>
+        <p class="text-gray-600 dark:text-gray-400 list-inside list-disc">
+          <span class="font-bold"> {wireframePrice} </span>{wireframeDescription}
+        </p>
+        <p class="text-gray-600 dark:text-gray-400 list-inside list-disc mb-4">
+          <span class="font-bold"> {databasePrice} </span>{databaseDescription}
+        </p>
+      </div>
+
       <!-- Affichage de l'option d'hébergement -->
       <div class="mt-4">
-        <p class="font-semibold text-lg text-gray-950 dark:text-white">Hébergement : A partir de {hostingPrice}€/an</p>
+        <p class="font-semibold text-lg text-gray-950 dark:text-white">
+          Hébergement : A partir de {hostingPrice}€/an
+        </p>
         <ul class="text-gray-600 dark:text-gray-400 text-sm">
-          {hostingDescription.map((description) => <li class="mb-2">{description}</li>)}
+          {
+            hostingDescription.map((description) => (
+              <li class="mb-2">{description}</li>
+            ))
+          }
         </ul>
       </div>
     </div>
@@ -46,7 +82,3 @@ const { id, title, benefits, price, hostingPrice, hostingDescription } = Astro.p
     </button>
   </Card>
 </div>
-
-
-
-
