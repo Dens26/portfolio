@@ -12,6 +12,19 @@
       "DeePl API"
     ],
     "urlImg": "/projects/j2s/homepage.jpg",
-    "link": "https://j2s.db-dev.fr"
+    "link": "project_j2s"
+  },
+  {
+    "name": "Portfolio denis bekaert",
+    "description": "Présentation de denis bekaert et de ses projets",
+    "technology": [
+      "Astro",
+      "Vercel",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS"
+    ],
+    "urlImg": "/projects/portfolio/homepage.jpg",
+    "link": "project_portfolio"
   }
 ]

@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+export const prerender = true;
+
+let link = "https://portfolio.db-dev.fr"
+---
+
+<Layout>
+  <section class="flex flex-col gap-4">
+    <h1 class="font-bold text-center text-2xl sm:text-3xl lg:text-4xl text-gray-950 dark:text-white mb-6">
+      Projet Portfolio - Denis Bekaert
+    </h1>
+
+    <p class="text-base md:text-lg text-gray-600 dark:text-gray-400 text-pretty text-center">
+      Portfolio destiné à me présenter, à mettre en avant mes projets et à détailler les services que je propose en tant que développeur freelance.    </p>
+
+    <!-- Bouton vers le site -->
+    <div class="flex justify-center mt-6">
+      <a href={link} target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg text-lg">
+        Découvrir le site
+      </a>
+    </div>
+  </section>
+
+    <!-- Section Screenshots -->
+    <h3 class="font-bold text-xl sm:text-2xl lg:text-3xl text-gray-950 dark:text-white mt-6">📸 Aperçu du site</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
+      <img src="/projects/portfolio/homepage.jpg" alt="Accueil du site" class="rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-102 hover:shadow-2xl" />
+      <img src="/projects/portfolio/about.jpg" alt="fiche jeu" class="rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-102 hover:shadow-2xl" />
+      <img src="/projects/portfolio/parcours.jpg" alt="Jeu mystère en cours" class="rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-102 hover:shadow-2xl" />
+      <img src="/projects/portfolio/services.jpg" alt="Tableau de bord admin" class="rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-102 hover:shadow-2xl" />
+    </div>
+
+    <!-- Bouton vers le site -->
+    <div class="flex justify-center mt-6">
+      <a href={link} target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg text-lg">
+        Découvrir le site
+      </a>
+    </div>
+  </section>
+
+
+    <!-- Conception -->
+    <h3 class="font-bold text-xl sm:text-2xl lg:text-3xl text-gray-950 dark:text-white mt-6">🛠 Conception & Technologies</h3>
+    <ul class="text-base md:text-lg text-gray-600 dark:text-gray-400 text-pretty space-y-2">
+      <li>🌐 Développé avec <strong>Astro</strong> pour une expérience utilisateur rapide et moderne.</li>
+      <li>🎨 Utilisation de <strong>Tailwind CSS</strong> pour un design responsive et personnalisé.</li>
+      <li>📧 Gestion de l'envoi d'e-mails avec <strong>Resend</strong> pour une communication fluide et efficace.</li>
+      <li>🚀 Déploiement avec <strong>Vercel</strong> pour une mise en ligne rapide et une performance optimale.</li>
+    </ul>
+
+    <!-- Bouton vers le site -->
+    <div class="flex justify-center mt-6">
+      <a href={link}  target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg text-lg">
+        Découvrir le site
+      </a>
+    </div>
+  </section>
+</Layout>
