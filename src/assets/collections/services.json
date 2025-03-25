@@ -5,7 +5,7 @@
     "price": 150,
     "description": "Un site web professionnel pour mettre en avant votre présence en ligne ou vos projets.",
     "benefits": [
-      "Design moderne et entièrement responsive",
+      "Design moderne et responsive",
       "Optimisation SEO de base",
       "Mise en valeur de vos services ou projets",
       "1 révision gratuite après le lancement"
@@ -28,7 +28,7 @@
     "benefits": [
       "Design simple et agréable",
       "Optimisation SEO de base",
-      "Gestion facile des contenus (blog ou présentation)",
+      "Gestion facile des contenus",
       "Formulaire de contact et réseaux sociaux intégrés"
     ],
     "hostingPrice": 30,
@@ -48,8 +48,8 @@
     "description": "Parfait pour vendre des produits en ligne avec sécurité et simplicité.",
     "benefits": [
       "Code de haute qualité",
-      "Boutique en ligne entièrement responsive",
-      "Intégration d'un système de paiement sécurisé",
+      "Boutique en ligne responsive",
+      "Système de paiement sécurisé",
       "Système de gestion des produits"
     ],
     "hostingPrice": 60,
@@ -68,7 +68,7 @@
     "description": "Idéal pour gérer un événement ou des réservations en ligne.",
     "benefits": [
       "Gestion des inscriptions ou des réservations",
-      "Système de paiement sécurisé intégré",
+      "Système de paiement sécurisé",
       "Design responsive et adapté",
       "Notifications automatiques et suivi"
     ],
@@ -89,7 +89,7 @@
     "benefits": [
       "Code de haute qualité",
       "Boutique en ligne entièrement responsive",
-      "Intégration d'un système de paiement sécurisé",
+      "Système de paiement sécurisé",
       "Tableau de bord admin personnalisé",
       "Analyses et rapports avancés"
     ],
@@ -108,10 +108,9 @@
     "price": 1500,
     "description": "Un site web dynamique permettant une gestion de contenu, des utilisateurs et des interactions communautaires.",
     "benefits": [
-      "Gestion dynamique des contenus (articles, événements, etc.)",
+      "Gestion dynamique des contenus",
       "Interface d'administration intuitive",
       "Système d'inscription et de gestion des utilisateurs",
-      "Fonctionnalités d'interaction sociale (commentaires, forums, messagerie)",
       "Design moderne et responsive",
       "Optimisation SEO de base",
       "1 révision gratuite après le lancement"
